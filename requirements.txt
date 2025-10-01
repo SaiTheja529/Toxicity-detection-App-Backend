@@ -1,0 +1,11 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+python-multipart==0.0.6
+detoxify==0.4
+torch           # install pinned below (see instructions) - keep this line for readability; we'll install explicit wheel separately if needed
+transformers>=4.28.0
+pillow>=9.0.0
+opencv-python-headless>=4.7.0
+pytesseract>=0.3.10
+numpy>=1.23.0
+aiofiles>=23.1.0
